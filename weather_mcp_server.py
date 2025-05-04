@@ -7,7 +7,7 @@ from datetime import datetime
 mcp = FastMCP("weatherapi")
 
 # WeatherAPI base URL and API key
-WEATHER_API_KEY = os.getenv("WEATHER_API_KEY", "f5194a1b9db64f96b5460411251204")
+WEATHER_API_KEY = os.getenv("WEATHER_API_KEY", "xxx")
 BASE_URL = "https://api.weatherapi.com/v1"
 
 async def make_weatherapi_request(endpoint: str, params: dict) -> dict:
